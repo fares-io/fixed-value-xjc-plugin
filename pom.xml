@@ -70,19 +70,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <jackson.version>2.15.3</jackson.version>
     <jaxb.version>4.0.4</jaxb.version>
     <jaxb.plugin.version>4.0.0</jaxb.plugin.version>
-    <slf4j.version>1.7.36</slf4j.version>
-    <logback.version>1.2.13</logback.version>
     <junit.version>5.10.1</junit.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-annotations</artifactId>
-    </dependency>
     <dependency>
       <groupId>org.jvnet.jaxb</groupId>
       <artifactId>jaxb-plugins-tools</artifactId>
@@ -102,16 +95,6 @@
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>codemodel</artifactId>
       <scope>provided</scope>
-    </dependency>
-    <!-- endregion -->
-    <!-- region logging dependencies -->
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>jcl-over-slf4j</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
     </dependency>
     <!-- endregion -->
     <!-- region testing -->
@@ -165,13 +148,6 @@
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>com.fasterxml.jackson</groupId>
-        <artifactId>jackson-bom</artifactId>
-        <version>${jackson.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      <dependency>
         <groupId>org.jvnet.jaxb</groupId>
         <artifactId>jaxb-plugins-tools</artifactId>
         <version>${jaxb.plugin.version}</version>
@@ -187,33 +163,6 @@
           </exclusion>
         </exclusions>
       </dependency>
-      <!-- region logging dependencies -->
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>${slf4j.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>jcl-over-slf4j</artifactId>
-        <version>${slf4j.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>jul-to-slf4j</artifactId>
-        <version>${slf4j.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>log4j-over-slf4j</artifactId>
-        <version>${slf4j.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>ch.qos.logback</groupId>
-        <artifactId>logback-classic</artifactId>
-        <version>${logback.version}</version>
-      </dependency>
-      <!-- endregion -->
       <!-- region testing dependencies -->
       <dependency>
         <groupId>org.junit</groupId>
@@ -226,16 +175,6 @@
         <groupId>com.github.javaparser</groupId>
         <artifactId>javaparser-core</artifactId>
         <version>3.25.5</version>
-      </dependency>
-      <dependency>
-        <groupId>javax.money</groupId>
-        <artifactId>money-api</artifactId>
-        <version>1.1</version>
-      </dependency>
-      <dependency>
-        <groupId>org.javamoney.moneta</groupId>
-        <artifactId>moneta-core</artifactId>
-        <version>1.4.2</version>
       </dependency>
       <!-- endregion -->
       <!-- region interop testing -->
