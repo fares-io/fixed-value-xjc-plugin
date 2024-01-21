@@ -20,7 +20,7 @@ Example configuration for the JAXB2 commons compiler:
       <plugin>
         <groupId>io.fares.bind.xjc.plugins</groupId>
         <artifactId>fixed-value-xjc-plugin</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
       </plugin>
     </plugins>
     <args>
