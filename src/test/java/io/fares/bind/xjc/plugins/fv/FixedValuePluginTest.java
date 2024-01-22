@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package io.fares.bind.xjc.plugins.jackson;
+package io.fares.bind.xjc.plugins.fv;
 
-import io.fares.bind.xjc.plugins.jackson.validators.FixedElementValueValidator;
-import io.fares.bind.xjc.plugins.jackson.validators.TestValidator;
+import io.fares.bind.xjc.plugins.fv.validators.FixedElementValueValidator;
+import io.fares.bind.xjc.plugins.fv.validators.TestValidator;
 
 import java.io.File;
 

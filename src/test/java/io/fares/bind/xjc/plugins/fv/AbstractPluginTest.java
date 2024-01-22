@@ -14,12 +14,12 @@
  * limitations under the License.
  *
  */
-package io.fares.bind.xjc.plugins.jackson;
+package io.fares.bind.xjc.plugins.fv;
 
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.sun.tools.xjc.Options;
-import io.fares.bind.xjc.plugins.jackson.validators.TestValidator;
+import io.fares.bind.xjc.plugins.fv.validators.TestValidator;
 import org.jvnet.jaxb.maven.AbstractXJCMojo;
 import org.jvnet.jaxb.maven.test.RunXJCMojo;
 

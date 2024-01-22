@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package io.fares.bind.xjc.plugins.jackson.validators;
+package io.fares.bind.xjc.plugins.fv.validators;
 
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 

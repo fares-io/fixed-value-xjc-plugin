@@ -1,1 +1,1 @@
-io.fares.bind.xjc.plugins.jackson.FixedValuePlugin
+io.fares.bind.xjc.plugins.fv.FixedValuePlugin

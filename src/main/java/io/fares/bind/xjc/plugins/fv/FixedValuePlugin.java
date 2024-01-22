@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package io.fares.bind.xjc.plugins.jackson;
+package io.fares.bind.xjc.plugins.fv;
 
 import com.sun.codemodel.*;
 import com.sun.tools.xjc.Options;
